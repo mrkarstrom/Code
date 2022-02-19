@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  background-color: darkcyan;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  width: 500px;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px;
+  height: 100px;
+  border-radius: 10px 10px 10px 0;
+  padding: 10px;
+  list-style: none;
+  font-size: 16px;
+}
+
+h3 {
+  text-align: center;
+  color: azure;
+  font-size: 2rem;
+}
+
+.tag {
+  background-color: rgb(12, 75, 75);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 0 5px 10px;
+  color: azure
+}
+
+.tag.highlight {
+    background-color: aquamarine;
+    color:black
+}
